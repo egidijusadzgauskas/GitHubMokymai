@@ -7,7 +7,7 @@ namespace gitHub_mokymai
         static void Main(string[] args)
         {
             List<string> sarasas = new List<string>() { "Geltona", "Zalia", "Raudona", "Lietuva" };
-            foras (int i = 0; i < sarasas.Count; i++)
+            for (int i = 0; i < sarasas.Count; i++)
             {
                 Console.WriteLine(sarasas[i]);
             }
